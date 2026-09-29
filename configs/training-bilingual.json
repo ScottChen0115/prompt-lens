@@ -1,0 +1,18 @@
+{
+  "checkpoint": "configs/checkpoint-bilingual.json",
+  "task": "bilingual_request_quality_multilabel",
+  "languages": ["en", "zh"],
+  "parameter_range": [100000000, 300000000],
+  "labels": ["unclear_goal", "missing_information", "unresolved_reference", "conflicting_constraints", "unclear_deliverable"],
+  "max_length": 256,
+  "epochs": 2,
+  "micro_batch_size": 4,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 0.00002,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "seed": 42,
+  "development_only": true,
+  "quality_score_validated": false,
+  "target_assistant": "GPT-6 Sol (exact execution configuration unverified)"
+}

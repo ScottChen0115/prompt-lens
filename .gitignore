@@ -1,0 +1,24 @@
+.cache/
+.venv/
+__pycache__/
+*.pyc
+
+# User-supplied datasets and derived data
+test set/
+inputs/
+data/
+
+# Local model weights, runs, reports, and app bundle
+outputs/
+Prompt Lens.app/
+
+# Private project knowledge and local OS/editor files
+.DS_Store
+.agents/
+.codex/
+AGENTS.md
+
+# Local secrets and credentials
+.env
+*.pem
+*.key

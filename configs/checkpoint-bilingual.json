@@ -1,0 +1,11 @@
+{
+  "repo": "FacebookAI/xlm-roberta-base",
+  "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "local_path": null,
+  "license": "mit",
+  "purpose": "bilingual_request_quality",
+  "parameter_range": [
+    100000000,
+    300000000
+  ]
+}
